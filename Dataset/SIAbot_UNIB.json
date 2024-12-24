@@ -1,0 +1,398 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hai",
+                "halo",
+                "hallo",
+                "hy",
+                "hi",
+                "morning",
+                "pagi",
+                "siang",
+                "malam",
+                "Good morning",
+                "good afternoon",
+                "good evening",
+                "good night",
+                "kawan",
+                "bro",
+                "sis",
+                "Kon'nichiwa",
+                "What's new?",
+                "yo",
+                "Hi there"
+            ],
+            "responses": [
+                "Hai, Ada yang bisa Skripsi Informatika Assistant (SIA) UNIB bantu?",
+                "Halo, Ada yang bisa Skripsi Informatika Assistant (SIA) UNIB bantu?",
+                "Saya Skripsi Informatika Assistant (SIA) UNIB akan membantumu dalam menemukan jawaban",
+                "Hi, Ada yang bisa Skripsi Informatika Assistant (SIA) UNIB bantu?",
+                "Yo, Ada yang bisa Skripsi Informatika Assistant (SIA) UNIB bantu?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "alur_skripsi",
+            "patterns": [
+                "Bagaimana alur pengambilan skripsi?",
+                "Alur pengambilan skripsi bagaimana?"
+            ],
+            "responses": [
+                "\n                Berikut adalah alur dalam pengambilan mata kuliah skripsi:\n \n                1. Mengambil Mata Kuliah Skripsi\n\n                2. Membuat Proposal Skripsi\n\n                3. Seminar Proposal Skripsi\n\n                4. Penelitian dan Penulisan Skripsi\n\n                5. Seminar Hasil Skripsi\n\n                6. Sidang Skripsi\n                "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "persyaratan_akademik",
+            "patterns": [
+                "Apa saja persyaratan pengambilan skripsi?",
+                "Syarat-syarat pengambilan skripsi",
+                "Apakah ada syarat dalam pengambilan skripsi?",
+                "Apa saja syarat mengambil skripsi?"
+            ],
+            "responses": [
+                "Mahasiswa yang mengambil skema skripsi sebagai tugas akhir harus memenuhi persyaratan akademik berikut:\n1. Terdaftar sebagai mahasiswa aktif pada Program Studi Informatika Fakultas Teknik Universitas Bengkulu.\n2. Telah menyelesaikan Mata Kuliah Metodologi Penelitian (minimal semester 5) dan Lulus dengan minimum Nilai C.\n3. Memiliki Indeks Prestasi Kumulatif (IPK) minimum yang dipersyaratkan yaitu 2.75. Jumlah minimum Sistem Kredit Semester (SKS) yang sudah diambil berjumlah 120 SKS.\n4. Sedang dan sudah mengambil mata kuliah konsentrasi minimal 12 (dua belas) sks dengan rincian 9 (Sembilan) sks harus sesuai dengan topik skripsi yang diambil, dibuktikan dengan print-out KHS nilai dan KRS pada semester berjalan.\nSelain persyaratan umum, mahasiswa juga harus memenuhi persyaratan-persyaratan administrasi"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "persyaratan_administrasi1",
+            "patterns": [
+                "Apa saja persyaratan administrasinya?",
+                "Jelaskan persyaratan administrasinya",
+                "Apa saja persyaratan administrasi untuk skripsi reguler?"
+            ],
+            "responses": [
+                "Persyaratan-persyaratan administrasi untuk alur Skripsi Reguler yaitu sebagai berikut:\nA. Seminar Proposal\n1. Mengisi dan menyerahkan formulir pendaftaran Seminar Proposal.\n2. Melampirkan proposal penelitian yang sudah disetujui/direview oleh minimal 1 dosen reviewer.\n3. Menyertakan surat persetujuan dari dosen pembimbing.\n4. Melampirkan bukti cover dan halaman pengesahan Kerja Praktek yang sudah ditandatangani oleh dosen pembimbing, penguji, dan koordinator program studi.\n5. Mengumpulkan berkas-berkas administrasi ke bagian akademik program studi.\nB. Seminar Hasil\n1. Mengisi dan menyerahkan formulir pendaftaran Seminar Hasil.\n2. Menyertakan laporan hasil penelitian yang sudah disetujui oleh dosen pembimbing.\n3. Menyertakan surat persetujuan dari dosen pembimbing.\n4. Melampirkan bukti telah mengikuti minimal 10 seminar hasil sebagai peserta (dibuktikan dengan kartu mengikuti seminar hasil).\n5. Melampirkan bukti bimbingan dan telah disetujui untuk mendaftar seminar hasil oleh pembimbing utama dan pembimbing.\n6. Mengumpulkan berkas-berkas administrasi ke bagian akademik.\nC. Sidang Skripsi\n1. Mengisi dan menyerahkan formulir pendaftaran Sidang Skripsi.\n2. Menyertakan skripsi lengkap yang sudah disetujui oleh dosen pembimbing.\n3. Menyertakan surat persetujuan dari dosen pembimbing.\n4. Menyertakan bukti bebas plagiasi dari gugus Kendali Mutu (GKM) Prodi.\n5. Melampirkan bukti pembayaran administrasi semester berjalan.\n6. Mengumpulkan berkas-berkas administrasi sesuai dengan aturan yang berlaku ke bagian akademik."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "persyaratan_administrasi2",
+            "patterns": [
+                "Bagaimana persyaratan yang jalur publikasi ilmiah?",
+                "Jelaskan persyaratan administrasi dari jalur publikasi",
+                "Apa saja persyaratan administrasi untuk skripsi jalur publikasi?"
+            ],
+            "responses": [
+                "Persyaratan-persyaratan administrasi untuk alur Skripsi Reguler yaitu sebagai berikut:\nA. Seminar Proposal Publikasi\n1. Mengisi dan menyerahkan formulir pendaftaran Seminar Proposal Publikasi.\n2. Melampirkan proposal penelitian yang ditujukan untuk publikasi ilmiah dan sudah disetujui oleh dosen pembimbing.\n3. Menyertakan surat persetujuan dari dosen pembimbing.\n4. Mengumpulkan berkas-berkas administrasi ke bagian akademik.\nB. Sidang Evaluasi Kemampuan Konsep Teoriti/Publikasi Ilmiah\n1. Mengisi dan menyerahkan formulir pendaftaran Sidang Evaluasi Kemampuan Konsep Teoritis.\n2. Menyertakan laporan penelitian lengkap yang sudah disetujui oleh dosen pembimbing.\n3. Menyertakan surat persetujuan dari dosen pembimbing.\n4. Menyertakan bukti bimbingan/asistensi minimal 10 kali dan di kartu bimbingan harus terdapat keterangan “ACC Submit Jurnal” dan “ACC Sidang Evaluasi”.\n5. Melampirkan Letter of Acceptance (LoA) dari Jurnal atau surat Keterangan bahwa artikel yang diajukan akan diterbitkan.\n6. Melampirkan bukti bayar jika jurnal menerapkan APC (Author Publication Cost) atau Biaya Publikasi.\n7. Melampirkan bukti pembayaran Uang Kuliah Tunggal (UKT) semua semester."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "format_penulisan",
+            "patterns": [
+                "Bagaimana format penulisan skripsi?",
+                "Aturan format penulisan skripsi?",
+                "Apa saja aturan pengetikan skripsi?"
+            ],
+            "responses": [
+                "Format penulisan ini mencakup berbagai aspek teknis penulisan, mulai dari jenis kertas yang digunakan, jenis dan ukuran font, margin, hingga penomoran halaman.\n1. Sampul:\na. Jenis kertas: buffalo (hard cover)\nb. Warna sampul: Oranye\nc. Tulisan: menggunakan tinta hitam \nd. Logo Universitas Bengkulu: menggunakan warna dengan diameter 4,5 cm berbentuk striker, unduh logo di https://www.unib.ac.id/wp\u0002content/uploads/2021/08/Logo-UNIB-HD-580x580.png\n\n2. Naskah:\na. Jenis kertas: HVS 80 gsm \nb. Ukuran kertas: A4 (21 cm x 29,7 cm), warna putih polos\nc. Jumlah halaman maksimum: 150\n3. Jenis Huruf:\na. Jenis huruf yang digunakan pada naskah adalah Times New Roman dengan ukuran 12pt.\nb. Huruf miring digunakan untuk istilah asing dan judul jurnal/buku dalam daftar Pustaka sesuai dengan format.\n4. Bilangan dan Satuan:\nBilangan dan Satuan:\na. Bilangan pada awal kalimat diketik dengan huruf.\nContoh: Satu juta dataset yang digunakan dalam penelitian ini bersumber dari Kaggle.\nb. Bilangan desimal diketik dengan koma.\nContoh: Akurasi kinerja algoritma Naïve Bayes adalah 76,8 persen.\nc. Satuan menggunakan Sistem Satuan Internasional.\nContoh: m untuk meter, s untuk sekon, g untuk gram.\n5. Jarak dan Baris:\nJarak antara baris dalam paragraf adalah 1,5 spasi sedangkan untuk intisari, kutipan langsung, penjelasan persamaan/rumus, penjelasan gambar dan tabel, serta daftar Pustaka, jarak antar barisnya adalah 1,15 spasi.\n6. Batas Tepi (Margin):\na. Tepi atas: 3,5 cm\nb. Tepi kiri: 3,5 cm\nc. Tepi bawah: 2,5 cm\nd. Tepi kanan: 2,5 cm\ne. Header dan footer: 1,5 cm\n7. Pararaf Baru:\nParagraf baru dimulai dari tepi kiri penulisan. Antar paragraf diberi spasi 6 pt.\n8. Permulaan Kalimat:\nBilangan, lambang, atau rumus yang terletak di awal kalimat harus diketik lengkap.Berikut adalah contoh penulisan yang benar dan salah :\nContoh Benar: Hidrogen merupakan ........\nContoh salah: H2O adalah senyawa ……"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "alur_sidang_skripsi",
+            "patterns": [
+                "Bagaimana proses sidang skripsi?",
+                "Tahapan sidang skripsi?",
+                "Apa yang dilakukan sebelum sidang skripsi?",
+                "Bagaimana jika tidak lulus sidang skripsi?"
+            ],
+            "responses": [
+                "Sebelum sidang, mahasiswa harus mendapatkan rekomendasi dosen pembimbing dan melengkapi dokumen persyaratan. Setelah sidang, mahasiswa akan dinilai berdasarkan presentasi dan kualitas skripsi. Jika tidak lulus sidang pertama, mahasiswa akan diberi kesempatan perbaikan dan dapat mengikuti sidang ulang."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "jalur_publikasi_ilmiah",
+            "patterns": [
+                "Apa itu jalur publikasi ilmiah?",
+                "Bagaimana proses skripsi jalur publikasi ilmiah?",
+                "Apa syarat jalur publikasi ilmiah?",
+                "Keuntungan jalur publikasi ilmiah?"
+            ],
+            "responses": [
+                "Jalur publikasi ilmiah adalah alternatif menyelesaikan skripsi melalui publikasi hasil penelitian di jurnal terakreditasi atau konferensi internasional. Mahasiswa harus menyusun artikel ilmiah dan mendapatkan Letter of Acceptance (LoA).Keuntungan jalur ini adalah meningkatkan pengalaman publikasi dan pengakuan akademik internasional."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "alur_publikasi",
+            "patterns": [
+                "Bagaimana proses skripsi jalur publikasi?",
+                "Apa langkah-langkah jalur publikasi ilmiah?",
+                "Bagaimana jika memilih jalur publikasi?"
+            ],
+            "responses": [
+                "Langkah-langkah meliputi pengajuan rencana publikasi, seminar proposal, penyusunan artikel, publikasi di jurnal atau konferensi, dan evaluasi publikasi.Mahasiswa harus mendapatkan persetujuan dosen pembimbing, menyusun artikel, dan memastikan artikel diterima oleh jurnal atau konferensi terkait."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "topik_skripsi",
+            "patterns": [
+                "Apa saja topik skripsi yang tersedia?",
+                "Bagaimana memilih topik skripsi informatika?",
+                "Topik skripsi informatika?"
+            ],
+            "responses": [
+                "Topik skripsi informatika yang disarankan untuk mahasiswa informatika UNIB:\n1. Pengembangan Perangkat Lunak dan Sistem Informasi:\na. Pengembangan Aplikasi Mobile, Desktop dan Web: Fokus pada desain, pembangunan, pengembangan, pemeliharaan, dan modifikasi aplikasi berbasis web, desktop, dan mobile.\nb. Sistem Pendukung Keputusan: Pembuatan dan pengembangan sistem yang membantu pengambilan keputusan di berbagai bidang, seperti pertanian, bisnis, kesehatan, dan pendidikan\n2. Jaringan Komputer, Cloud Computing, dan Keamanan Jaringan:\na. Desain dan Pengelolaan Jaringan: Penelitian tentang perancangan arsitektur jaringan, pengawasan, dan pengelolaan jaringan komputer.\nb. Keamanan Jaringan: Fokus pada protokol keamanan, deteksi intrusi, dan pengelolaan keamanan jaringan untuk memastikan integritas dan keamanan data.\nc. Cloud Computing: Fokus pada Cloud Computing Infrastructure, Conceptualization, Business and Technological Issues, dan Green Cloud Computing.\n3. Sistem Cerdas dan Kecerdasan Buatan:\na. Pengembangan Sistem Artificial Intelligence (AI): Penelitian tentang soft-computing, machine learning, neural network, dan aplikasi AI lainnya.\nb. Data Science dan Analisis Data: Penggunaan data mining, information retrieval, dan analisis data untuk mendapatkan wawasan dan membuat keputusan yang berbasis data.\nc. Internet of Things (IoT): pemanfaatan integrasi hardware dan software untuk mendukung kegiatan pengembangan dan pengujian aplikasi berbasis Sistem Cerdas.\n4. Multimedia dan Pengembangan Game\na. Desain dan Pengembangan Multimedia: Fokus pada metode-metode pengembangan multimedia, termasuk desain grafis, animasi, dan video.\nb. Pengembangan Game: Pembuatan game edukasi dan hiburan, serta pengujian dan evaluasi game menggunakan konsep komputer grafis."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "kriteria_penilaian",
+            "patterns": [
+                "Bagaimana skripsi dinilai?",
+                "Apa saja kriteria penilaian skripsi?",
+                "Penilaian untuk jalur reguler dan publikasi?"
+            ],
+            "responses": [
+                "Setiap jalur skripsi memiliki parameter penilaian khusus yang mencerminkan proses dan tujuan masing-masing jalur. Berikut adalah kriteria penilaian umum untuk jalur reguler dan jalur publikasi ilmiah:\n1. Jalur Skripsi Reguler\na. Seminar Proposal: kualitas presentasi, kemampuan menjawab pertanyaan, masukan dan perbaikan. Evaluasi presentasi proposal dan perbaikan yang dilakukan.\nb. Seminar Hasil: Kualitas presentasi, kemampuan menjawab pertanyaan. Evaluasi presentasi hasil penelitian.\nc. Sidang Skripsi: Kualitas presentasi akhir, kemampuan menjawab pertanyaan, kepatuhan terhadap revisi. Evaluasi keseluruhan skripsi dan kemampuan mempertahankan argumen.\n2. Jalur Skripsi Publikasi\nb. Evaluasi dan Penilaian: Evaluasi dari dosen pembimbing dan penguji, dampak dan kontribusi artikel terhadap bidang ilmu. Evaluasi kualitas dan dampak publikasi ilmiah, proses publikasi dan hasilnya, Evaluasi kualitas penulisan dan analisis artikel ilmiah."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "parameter_penilaian",
+            "patterns": [
+                "Bagaimana indikator penilaian skripsinya?",
+                "Berapa indikator nilai yang diberikan untuk skripsi informatika unib?"
+            ],
+            "responses": [
+                "Berikut adalah parameter penilaian maksimum untuk jalur reguler dan jalur publikasi ilmiah:\n1. Jalur Skripsi Reguler\n- Nilai Maksimum (<= 1 Semester) : A\n- Nilai Maksimum (1 <= 2 Semester): A-\n- Nilai Maksimum (2 <= 4 Semester): B+\n- Nilai Maksimum (> 4 Semester): C+\n2. Jalur Skripsi Publikasi\na. Quartal/Sinta terindeks Scopus/Scimago Q1-Q4, Sinta 1 - Sinta3:\n- Nilai Maksimum (<= 1 Semester): A\n- Nilai Maksimum (1 <= 2 Semester): A\n- Nilai Maksimum (2 <= 4 Semester): A-\n- Nilai Maksimum (> 4 Semester):B\nb. Sinta 4:\n- Nilai Maksimum (<= 1 Semester): A-\n- Nilai Maksimum (1 <= 2 Semester): B+\n- Nilai Maksimum (2 <= 4 Semester): B\n- Nilai Maksimum (> 4 Semester): C+\nc. Jurnal Internasional tidak terindeks Scopus tapi terindeks lainnya (misalnya Copernicus, dll):\n- Nilai Maksimum (<= 1 Semester): A-\n- Nilai Maksimum (2 <= 4 Semester): B\n- Nilai Maksimum (> 4 Semester): C+\nd. International Conference:\n- Nilai Maksimum (<= 1 Semester): A-\n- Nilai Maksimum (1 <= 2 Semester): B+\n- Nilai Maksimum (2 <= 4 Semester): B\n- Nilai Maksimum (> 4 Semester): C+"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sistematika_penulisan",
+            "patterns": [
+                "Apa saja sistematika penulisan proposal skripsi?",
+                "Bagaimana struktur naskah proposal skripsi?"
+            ],
+            "responses": [
+                "Berikut sistematika penulisan proposal skripsi jalur reguler dan publikasi:/n1. Jalur reguler : terdiri atas tiga bagian, yaitu bagian awal, bagian utama, dan bagian akhir.\n- Bagian awal meliputi halaman-halaman yang bersifat wajib seperti halaman judul yang mencantumkan judul skripsi, nama mahasiswa, NPM, program studi, fakultas, nama dosen pembimbing, dan tahun akademik; halaman sub cover dengan informasi serupa; halaman pengesahan yang berisi pernyataan persetujuan dari dosen reviewer; instisari yang memuat ringkasan latar belakang, tujuan penelitian, metodologi, dan kontribusi yang diharapkan; serta abstract sebagai versi Bahasa Inggris dari instisari. Bagian awal juga dapat mencakup beberapa elemen opsional, seperti kata pengantar yang berisi ucapan terima kasih dan latar belakang penulisan proposal, daftar isi yang memuat daftar bab, sub-bab, dan nomor halaman, daftar tabel, dan daftar gambar.\n- Bagian utama terdiri dari tiga bab utama. Bab I adalah pendahuluan, yang mencakup latar belakang, rumusan masalah, tujuan penelitian, manfaat penelitian, batasan masalah, sistematika penulisan, serta rencana jadwal penelitian. Bab II adalah tinjauan pustaka, yang memuat landasan teori, penelitian terdahulu, dan kerangka teoritis. Bab ini bersifat opsional, tergantung pada kebutuhan proposal. Bab III adalah metodologi penelitian, yang mencakup jenis penelitian, desain penelitian, lokasi dan waktu penelitian, populasi dan sampel, teknik pengumpulan data, instrumen penelitian (jika ada), dan teknik analisis data (jika ada).\n- Bagian akhir mencakup daftar pustaka, yang memuat referensi yang digunakan dalam proposal, dan lampiran, yang bersifat opsional, seperti data tambahan, kuesioner, atau instrumen penelitian. Dengan struktur ini, proposal skripsi diharapkan dapat tersusun secara sistematis dan memenuhi standar akademik yang berlaku.\n\n2. Jalur publikasi terdiri atas tiga bagian juga, yaitu bagian awal, bagian utama dan bagian akhir.\n- Bagian awal meliputi halaman-halaman yang bersifat wajib seperti halaman judul yang mencantumkan judul skripsi, nama mahasiswa, NPM, program studi, fakultas, nama dosen pembimbing, dan tahun akademik; halaman sub cover dengan informasi serupa; halaman pengesahan yang berisi pernyataan persetujuan dari dosen pembimbing; instisari yang memuat ringkasan latar belakang, tujuan penelitian, metodologi, dan kontribusi yang diharapkan beserta kata kunci; serta abstract sebagai versi Bahasa Inggris dari instisari. Bagian awal juga dapat mencakup beberapa elemen opsional, seperti kata pengantar yang berisi ucapan terima kasih dan latar belakang penulisan proposal, daftar isi yang memuat daftar bab, sub-bab, dan nomor halaman, daftar tabel, dan daftar gambar.\n- Bagian utama terdiri dari empat bab utama. Bab I adalah pendahuluan, yang mencakup latar belakang, rumusan masalah, tujuan penelitian, manfaat penelitian, batasan masalah, sistematika penulisan, serta rencana jadwal penelitian. Bab II adalah tinjauan pustaka, yang memuat landasan teori, penelitian terdahulu, dan kerangka teoritis. Bab III adalah metodologi penelitian, yang mencakup desain penelitian, lokasi dan waktu penelitian, populasi dan sampel, teknik pengumpulan data, instrumen penelitian, dan teknik analisis data. Bab IV adalah target publikasi dan rencana jadwal penyelesaian, yang mencakup target jurnal atau konferensi untuk publikasi dan jadwal penyelesaian penelitian serta penulisan artikel.\n- Bagian akhir mencakup daftar pustaka, yang memuat referensi yang digunakan dalam proposal, dan lampiran, yang bersifat opsional, seperti data tambahan, kuesioner, atau instrumen penelitian. Dengan struktur ini, proposal skripsi diharapkan dapat tersusun secara sistematis dan memenuhi standar akademik yang berlaku."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "penulisan_dapus",
+            "patterns": [
+                "Bagaimana format penulisan daftar pustaka?",
+                "Apa ketentuan penulisan daftar pustakanya?"
+            ],
+            "responses": [
+                "Seluruh sitasi yang digunakan dalam teks harus dimasukkan ke dalam daftar pustaka di bagian akhir naskah. Pustaka diwajibkan referensi berasal dari :\na. jurnal bereputasi (baik Sinta, Scopus, Elsvier, Francis & Tailor, Thomson Reuters, dll) minimal berjumlah 10\nb. Buku Cetak atau e-book berpenerbit\nc. Referensi yang dipakai minimal memiliki tahun terbitan kurang dari 5 tahun\nd. Referensi minimum 20 pustaka\nContoh format daftar pustaka sesuai dengan APA 7th edition:\n1. Buku:\nAuthor, A. A. (Year). Title of work: Capital letter also for subtitle. Publisher.\n2. Artikel Jurnal:\nAuthor, A. A., Author, B. B., & Author, C. C. (Year). Title of article. Title of Periodical, volume number (issue number), pages. https://doi.org/xx.xxx/yyyy\n3. Artikel Konferensi\nAuthor, A. A., & Author, B. B. (Year, Month). Title of paper. In A. Editor, B. Editor, & C. Editor (Eds.), Title of proceedings (pp. pages). Publisher. https://doi.org/xx.xxx/yyyy\n4. Laporan:\nAuthor, A. A., & Author, B. B. (Year). Title of report (Report No. xxx). Publisher.\n5. Skripsi/Thesis/Disertasi:\nAuthor, A. A. (Year). Title of thesis or dissertation (Unpublished masters thesis or doctoral dissertation). Name of Institution."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "kualifikasi_kkni",
+            "patterns": [
+                "Apa itu kualifikasi KKNI?",
+                "Bagaimana kualifikasi lulusan informatika?",
+                "Apa standar KKNI untuk skripsi?"
+            ],
+            "responses": [
+                "Kerangka Kualifikasi Nasional Indonesia (KKNI) level 6 untuk sarjana mencakup kemampuan mengaplikasikan ilmu pengetahuan dalam penyelesaian masalah, penguasaan konsep teoritis, pengambilan keputusan berbasis analisis data, dan tanggung jawab atas hasil kerja. Skripsi harus mencerminkan kompetensi lulusan sesuai KKNI."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "penyelesaian_masalah",
+            "patterns": [
+                "Bagaimana jika ada masalah saat skripsi?",
+                "Siapa yang bisa membantu jika ada kendala?",
+                "Bagaimana cara menyelesaikan skripsi yang tertunda?"
+            ],
+            "responses": [
+                "Jika ada masalah, segera konsultasikan dengan dosen pembimbing atau koordinator program studi. Mereka dapat membantu memberikan arahan dan solusi. Pastikan untuk mengikuti jadwal bimbingan secara rutin dan melaporkan perkembangan penelitian."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "proses_skripsi_reguler",
+            "patterns": [
+                "Apa saja langkah skripsi jalur reguler?",
+                "Bagaimana proses skripsi reguler?",
+                "Langkah-langkah skripsi reguler?"
+            ],
+            "responses": [
+                "Langkah-langkah skripsi jalur reguler meliputi: pengajuan proposal, seminar proposal, pelaksanaan penelitian, seminar hasil, dan sidang skripsi. Setiap langkah membutuhkan persetujuan dosen pembimbing dan melibatkan seminar di depan dosen penguji untuk mendapatkan masukan dan persetujuan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "lampiran_skripsi",
+            "patterns": [
+                "Apa saja lampiran untuk skripsi informatika?",
+                "Lampiran-lampiran yang diperlukan untuk skripsi informatika?",
+                "Apa saja dokumen tambahan untuk skripsi informatika?"
+            ],
+            "responses": [
+                "Lampiran skripsi meliputi:\na. Rekomendasi pengambilan mata kuliah skripsi\nb. Halaman pengesahan, halaman persetujuan seminar proposal\nc. Rekomendasi pendaftaran proposal skripsi\nd. Rekomendasi pendaftaran seminar hasil/sidang\ne. Pernyataan keaslian penelitian\nf. Surat pernyataan komitmen penyelesaian jalur publikasi ilmiah (untuk jalur publikasi)\ng. Log bimbingan minimal 10 kali."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "rekomendasi_judul",
+            "patterns": [
+                "Apa saja contoh judul skripsi?",
+                "Rekomendasi judul skripsi untuk topik tertentu?",
+                "Bisa minta contoh judul skripsi informatika?"
+            ],
+            "responses": [
+                "Berikut adalah beberapa contoh judul skripsi berdasarkan topik informatika:\n- Pengembangan Sistem Informasi Akademik Berbasis Web dengan Framework Laravel\n- Implementasi Algoritma Machine Learning untuk Prediksi Cuaca\n- Rancang Bangun Aplikasi Mobile untuk Monitoring Kesehatan\n- Analisis Keamanan Jaringan dengan Metode Penetration Testing\n- Pengembangan Game Edukasi Berbasis Android untuk Pembelajaran Matematika\n- Optimasi Data Warehouse untuk Analisis Penjualan Menggunakan ETL\n- Penerapan Algoritma Deep Learning untuk Klasifikasi Citra Medis\n- Sistem Pendukung Keputusan untuk Penentuan Lokasi Bisnis Menggunakan Metode AHP\n- Analisis Big Data untuk Prediksi Tren Pasar Menggunakan Hadoop\n- Pengembangan Chatbot Berbasis AI untuk Layanan Pelanggan"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "rekomendasi_judul_machine_learning",
+            "patterns": [
+                "Apa rekomendasi judul topik machine learning untuk skripsi?",
+                "Contoh judul skripsi tentang machine learning?",
+                "Topik penelitian machine learning yang menarik?",
+                "Ada ide judul skripsi machine learning?"
+            ],
+            "responses": [
+                "Berikut beberapa rekomendasi judul topik machine learning untuk skripsi:\n1. Implementasi Deep Learning untuk Deteksi Penyakit dalam Citra Medis.\n2. Penerapan Algoritma Random Forest dalam Prediksi Harga Properti.\n3. Analisis Sentimen Media Sosial Menggunakan Natural Language Processing.\n4. Optimalisasi Jaringan Neural untuk Pengenalan Pola Wajah.\n5. Sistem Rekomendasi Film Menggunakan Collaborative Filtering dan Machine Learning."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "rekomendasi_judul_cloud_computing",
+            "patterns": [
+                "Apa rekomendasi judul topik cloud computing untuk skripsi?",
+                "Contoh judul skripsi tentang cloud computing?",
+                "Topik penelitian cloud computing yang menarik?",
+                "Ada ide judul skripsi cloud computing?"
+            ],
+            "responses": [
+                "Berikut beberapa rekomendasi judul topik cloud computing untuk skripsi:\n1. Analisis Kinerja Platform Cloud untuk Sistem E-commerce Berbasis AI.\n2. Penerapan Teknologi Serverless dalam Optimalisasi Aplikasi Web.\n3. Keamanan Data pada Cloud Storage Menggunakan Teknologi Blockchain.\n4. Pemanfaatan Edge Computing untuk Mengurangi Latensi dalam IoT.\n5. Evaluasi Model Multi-Cloud untuk Bisnis Skala Menengah."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "bimbingan_skripsi",
+            "patterns": [
+                "Apa saja yang dibahas saat bimbingan skripsi?",
+                "Bagaimana cara bimbingan skripsi yang efektif?",
+                "Tips sukses bimbingan skripsi?",
+                "Bagaimana jadwal bimbingan skripsi?"
+            ],
+            "responses": [
+                "Bimbingan skripsi biasanya mencakup diskusi tentang perkembangan penelitian, revisi dokumen, dan solusi untuk kendala yang dihadapi. Pastikan membawa catatan dan pertanyaan yang spesifik.\n Agar bimbingan efektif, siapkan materi terlebih dahulu, pahami revisi sebelumnya, dan buat jadwal rutin dengan dosen pembimbing. Komunikasikan kendala atau pertanyaan yang Anda miliki agar dosen pembimbing dapat memberikan masukan yang relevan."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sumber_penelitian",
+            "patterns": [
+                "Di mana mencari referensi untuk penelitian?",
+                "Sumber referensi terpercaya untuk skripsi?",
+                "Bagaimana mendapatkan jurnal untuk penelitian?",
+                "Apa saja tempat mencari bahan penelitian?"
+            ],
+            "responses": [
+                "Anda dapat mencari referensi dari jurnal ilmiah seperti IEEE, Springer, ScienceDirect, atau PubMed. Gunakan akses perpustakaan kampus jika tersedia.\nSelain itu bisa melalui Google Scholar yang merupakan platform yang sangat membantu untuk menemukan artikel dan jurnal penelitian yang relevan. Pastikan menggunakan sumber terpercaya dan terakreditasi untuk mendukung validitas penelitian Anda."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tempat_mencari_dataset",
+            "patterns": [
+                "Di mana saya bisa mendapatkan dataset?",
+                "Sumber dataset untuk penelitian?",
+                "Bagaimana cara mencari dataset untuk skripsi?",
+                "Apa saja website untuk dataset penelitian?"
+            ],
+            "responses": [
+                "Beberapa sumber dataset populer adalah Kaggle, UCI Machine Learning Repository, dan Google Dataset Search. Anda juga dapat mencari dataset spesifik pada website resmi institusi atau organisasi terkait.\nDataset untuk penelitian medis bisa ditemukan di TCIA (The Cancer Imaging Archive) atau PhysioNet. Pastikan dataset yang digunakan relevan dengan topik penelitian Anda dan memiliki lisensi yang sesuai untuk penggunaan akademik."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "kontak_informasi",
+            "patterns": [
+                "Bagaimana cara menghubungi program studi?",
+                "Siapa yang bisa dihubungi untuk informasi skripsi?",
+                "Kontak informatika Universitas Bengkulu?"
+            ],
+            "responses": [
+                "Anda dapat menghubungi Program Studi Informatika Fakultas Teknik Universitas Bengkulu melalui email di informatika@unib.ac.id.\nAlamat program studi: Gedung Program Studi Informatika Fakultas Teknik Universitas Bengkulu, Jl. WR Supratman Kandang Limun Muara Bangkahulu, Bengkulu 38119."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Terima kasih",
+                "Sampai jumpa",
+                "Bye",
+                "Selamat tinggal",
+                "Sudah selesai",
+                "Saya selesai"
+            ],
+            "responses": [
+                "Senang bisa memberimu informasi, semoga sukses dengan skripsimu!",
+                "Sampai jumpa! Jika butuh bantuan lagi terkait skripsimu, saya siap membantu.",
+                "Semoga informasi yang SIA UNIB berikan bermanfaat, jika ada pertanyaan lain terkait skripsi informatika UNIB jangan sungkan untuk ditanyakan :)"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
